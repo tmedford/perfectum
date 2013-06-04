@@ -8,7 +8,45 @@
  * You're free to add application-wide styles to this file and they'll appear at the top of the
  * compiled file, but it's generally better to create a new file per style scope.
  *
- *= require_self
- *= require_tree .
+*= require_self
+ *= require jquery.ui.all
  *= require bootstrap.min.css
+ *= require bootstrap-responsive.min.css
+ ****** Calendars Styles *******
+ *= require fullcalendar.css
+ *
+ ****** Boxes Styles *******
+ *= require chosen.css
+ *
+ ****** Uniform Styles *******
+ *= require uniform.default.css
+ *
+ ****** Text Editor Styles *******
+ *= require jquery.cleditor.css
+ *
+ ****** Noty Notifications Style *******
+ *= require jquery.noty.css
+ *
+ ****** Notifications Style *******
+ *= require noty_theme_default.css
+ *
+ ****** File Manager Style *******
+ *= require elfinder.min.css
+ *= require elfinder.theme.css
+ *
+ ****** iPhone Style *******
+ *= require jquery.iphone.toggle.css
+ *
+ ****** Uploadify Styles *******
+ *= require uploadify.css
+ *
+ ****** Growl Like Notifications Styles *******
+ *= require jquery.gritter.css
+ *
+ ****** Font Awesome Styles *******
+ *= require font-awesome.css
+ *= require font-awesome-ie7.css
+ *= require style.css
+ *= require style-responsive.css
+*/
  */
